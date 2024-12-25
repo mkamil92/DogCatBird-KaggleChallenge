@@ -1,6 +1,7 @@
-# DogCatBird-KaggleChallenge
-# CSE669 Deep Learning
-### This repository implements an image classification model designed to classify images into three categories: Dog, Cat, and Bird. I build it using Convolutional Neural Networks (CNN) and Transfer Learning architectures (ResNet-18, VGG-16) and differnet models  focuses on achieving optimal accuracy through fine-tuned hyperparameters, dropout regularization and learning rate scheduling. Ensemble Model combined predictions from ResNet-18 and VGG-16 delivering robust and normal results but not highest results.
+# DogCatBird-KaggleChallenge CSE669 Deep Learning
+
+# **Overview**
+This repository contains the implementation of  image classification task  differentiate between three classes: Dog, Cat, and Bird. In this i used CNN architectures, including Baseline CNN, Transfer Learning Models (ResNet-18, VGG-16) and an Ensemble Model to achieve optimal performance on the dataset sourced from a Kaggle competition (https://www.kaggle.com/t/571920ea0e2f4c9b99b725b667afdd69)
 
 ##  **Dataset Details**
 
@@ -8,6 +9,8 @@
 - **Test Set:** 20,000 unlabeled images  
 - **Balanced Dataset:** Equal representation across all three classes  
 - **Evaluation Metric:** Accuracy
-### The dataset was downloaded from Kaggle competition (https://www.kaggle.com/t/571920ea0e2f4c9b99b725b667afdd69) and models are evaluated using Accuracy as the primary metric. 
 
-### This repository includes all necessary details of implementation for data preprocessing, model training, evaluation and visualization making it a comprehensive resource for image classification tasks. Further I write a detailed report using LateX and i added it here as well
+## Insights
+The results showed that a learning rate of 0.001 consistently outperformed ensuring efficient convergence and increasing the number of epochs improved accuracy especially for deeper models like VGG-16. A dropout rate of 0.5 effectively minimized overfitting, enhancing generalization. ResNet-18 performed better than VGG-16 due to its residual connections, enabling stable training. Combining both architectures in an ensemble model delivered balanced and good accuracy but I achieved highest accuracy with ResNet-18 that is 88%.
+
+### This repository includes all necessary implementation details for data preprocessing, model training, evaluation and visualization making it a comprehensive resource for this image classification tasks. Further I write a detailed report using LateX and i added it here as well
