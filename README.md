@@ -1,4 +1,4 @@
-# DogCatBird-KaggleChallenge CSE669 Deep Learning
+# DogCatBird-KaggleChallenge :: CSE669 Deep Learning
 
 # **Overview**
 This repository contains the implementation of  image classification task  differentiate between three classes: Dog, Cat, and Bird. In this i used CNN architectures, including Baseline CNN, Transfer Learning Models (ResNet-18, VGG-16) and an Ensemble Model to achieve optimal performance on the dataset sourced from a Kaggle competition (https://www.kaggle.com/t/571920ea0e2f4c9b99b725b667afdd69)
